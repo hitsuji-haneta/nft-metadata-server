@@ -1,11 +1,16 @@
 {
   "name": "nft-metadata-server",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/app.js",
   "author": "hitsuji-haneta <hitsuji-haneta@hotmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node src/app.js"
+  },
   "dependencies": {
+    "dotenv": "^16.0.0",
     "express": "^4.17.3",
-    "firebase-admin": "^10.0.2"
+    "firebase-admin": "^10.0.2",
+    "mimetypes": "^0.1.1"
   }
 }
